@@ -68,6 +68,9 @@ private static final String OPENAI_API_URL = "https://api.openai.com/v1/chat/com
 ### 8. 返回本项目目录，执行：
 ```bash
 mvn dependency:copy-dependencies
+mkdir coverage-log
+mkdir crashes
+mkdir data
 ```
 
 ### 9. 启动fuzz程序，-cp 后的参数替换为你自己的对应目录：
