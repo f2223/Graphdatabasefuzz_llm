@@ -64,6 +64,9 @@ private static final String OPENAI_API_URL = "https://api.openai.com/v1/chat/com
     <version>5.26.0</version>
 </dependency>
 ```
+```bash
+mvn clean compile
+```
 
 ### 8. 返回本项目目录，执行：
 ```bash
